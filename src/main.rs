@@ -97,7 +97,7 @@ fn run_repl(env: Environment) -> Result<()> {
     }
 
     loop {
-        match editor.readline("> ") {
+        match editor.readline("; ") {
             Ok(line) => {
                 editor.add_history_entry(line.as_str());
 
