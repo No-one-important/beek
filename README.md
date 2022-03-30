@@ -1,6 +1,6 @@
 # beek
 
-[![build](https://github.com/mosmeh/beek/workflows/build/badge.svg)](https://github.com/mosmeh/beek/actions)
+[![build](https://github.com/No-one-important/beek/workflows/build/badge.svg)](https://github.com/No-one-important/beek/actions)
 
 A modern CLI calculator
 
