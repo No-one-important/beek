@@ -1,8 +1,8 @@
 [package]
 name = "beek"
-version = "0.1.0"
-authors = ["mosm <airman515@gmail.com>"]
-edition = "2018"
+version = "0.1.1"
+authors = ["mosm <airman515@gmail.com>", "Aaron <aaron.huntley2007@gmail.com>"]
+edition = "2021"
 
 [dependencies]
 colored = "2.0.0"
