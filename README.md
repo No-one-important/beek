@@ -56,23 +56,23 @@ Precedence and associativity (ordered from highest precedence to lowest):
 ### Variable assignment
 
 ```
-> mass = 5; velocity = 3
-> energy = mass * velocity^2 / 2
+; mass = 5; velocity = 3
+; energy = mass * velocity^2 / 2
  = 22.5
 ```
 
 ### Function definition
 
 ```
-> binomial(n, k) = n! / k! / (n-k)!
-> binomial(5, 3)
+; binomial(n, k) = n! / k! / (n-k)!
+; binomial(5, 3)
  = 10
 ```
 
 ### Math and special constants
 
--   `e`, `π` (`pi`) and `τ` (`tau`)
--   `ans` and `_` store the last result
+- `e`, `π` (`pi`) and `τ` (`tau`)
+- `ans` and `_` store the last result
 
 ## Development
 
