@@ -6,25 +6,29 @@ edition = "2021"
 
 [dependencies]
 colored = "2.0.0"
-combine = "4.6.0"
-itertools = "0.10.1"
+combine = "4.6.3"
+itertools = "0.10.3"
 rand = "0.8.4"
-ryu = "1.0.5"
+ryu = "1.0.9"
 statrs = "0.15.0"
-thiserror = "1.0.26"
+thiserror = "1.0.30"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-anyhow = "1.0.42"
+anyhow = "1.0.53"
 atty = "0.2.14"
 dirs = "4.0.0"
 rustyline = "9.1.2"
 rustyline-derive = "0.6.0"
+<<<<<<< HEAD
 structopt = "0.3.22"
+=======
+structopt = "0.3.26"
+>>>>>>> 52ae20df22aae025919ad4ca45ed2046ac2c2c99
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-console_error_panic_hook = "0.1.6"
-getrandom = { version = "0.2.3", features = ["js"] }
-wasm-bindgen = "0.2.74"
+console_error_panic_hook = "0.1.7"
+getrandom = { version = "0.2.4", features = ["js"] }
+wasm-bindgen = "0.2.79"
 
 [lib]
 name = "libbeek"
